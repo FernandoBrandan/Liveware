@@ -47,14 +47,9 @@ class NoteController extends Controller
 
     public function downloadCSV()
     { 
-        
+        // https://www.youtube.com/watch?v=CXxkgwGm9JY
+
         return view('notes.downloadCSV');
-        // $notes = Note::all();
-        // $csvExporter = new \Laracsv\Export();
-        // $csvExporter->build($notes, ['id', 'title', 'content'])->download();        
-        /** otra opcion */
-        //use Symfony\Component\HttpFoundation\StreamedResponse;
-        //use League\Csv\Writer;
         // https://laravel-excel.com/
         // composer require maatwebsite/excel:^3.1
  
