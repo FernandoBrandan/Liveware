@@ -25,7 +25,7 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     Crud Notas
-                    <a href="" class="px-5 bg-gray-500 rounded"> > </a>
+                    <a href="{{ route('notes.index') }}" class="px-5 bg-gray-500 rounded"> > </a>
                 </div>
             </div>
         </div>

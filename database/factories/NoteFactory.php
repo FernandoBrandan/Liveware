@@ -10,7 +10,7 @@ class NoteFactory extends Factory
     {
         return [
             'title' => fake()->jobTitle(10),
-            'content' => fake()->sentence(255),
+            'content' => fake()->sentence(25),
         ];
     }
 }
