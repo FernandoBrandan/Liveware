@@ -9,6 +9,8 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        NoteSeeder::class;
+        $this->call([
+            NoteSeeder::class,
+        ]);
     }
 }
